@@ -227,9 +227,9 @@ internal static class SkillInfo
                     phaserun.Id = skill.Id;
                     phaserun.BuffName = "new_phase_run";
                     break;
-                case "molten_shell_barrier":
+                case "molten_shell":
                     moltenShell.Id = skill.Id;
-                    moltenShell.BuffName = "fire_shield";
+                    moltenShell.BuffName = "molten_shell_shield";
                     break;
                 case "steelskin":
                     steelSkin.Id = skill.Id;
